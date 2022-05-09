@@ -3,6 +3,22 @@
   /* border-top: 22px solid orange !important;
   border-right:32px solid rgb(32, 6, 105) !important; */
 
+ .box1,.box2{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  font-size: 20px;
+  border-radius:15px;
+ } 
+ .box1:hover,.box2:hover{
+background-color:#eb5d1e;
+color:#fff;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ } 
+ .text-muted{
+
+   color:#ee7843;
+
+ }
+
 
 
 
@@ -63,13 +79,13 @@
 }
 
 
-
+/* 
 .nav-tabs{
   border-bottom: 5px solid rgb(216, 142, 3) !important;
   border-top: 5px solid rgb(0, 38, 143) !important;
   border-left: 5px solid rgb(231, 115, 7) !important;
   border-right: 5px solid rgb(231, 190, 7) !important;
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
 
 }
 
@@ -709,7 +725,7 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 30px;
   }
   #hero .hero-img img {
-    width: 70%;
+    width: 50%;
   }
 }
 
@@ -741,8 +757,12 @@ h1,h2,h3,h4,h5,h6{
 # Sections General
 --------------------------------------------------------------*/
 section {
-  margin-top: 60px !important;
+  margin-top:10px !important;
 }
+.mdp_section,.services_section,.course-section,.login-section{
+margin-top: 120px !important;
+}
+
 
 .nav-item{
   justify-content: space-evenly;
